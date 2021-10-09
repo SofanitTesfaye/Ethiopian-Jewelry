@@ -67,29 +67,31 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 > Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
 
-![Dummy Link](url)
+![Dummy Link](https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=0%3A1)
 
 - Desktop Landing
 
-![Dummy Link](url)
+![Dummy Link](https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=314%3A2)
 
 - Desktop Hero
 
-![Dummy Link](url)
+![Dummy Link](https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=313%3A12)
 
 - Resource Index
 
-![Dummy Link](url)
+![Dummy Link](https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=314%3A52)
 
 - Resource Show
 
-![Dummy Link](url)
+![Dummy Link](https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=314%3A81)
 
 - Tablet Resource Index
 
-![Dummy Link](url)
+![Dummy Link](https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=0%3A1)
 
 - Mobile Resource Index
+
+![Dummy Link](https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=0%3A1)
 
 #### Component Tree
 
