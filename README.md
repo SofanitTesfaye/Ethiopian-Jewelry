@@ -67,7 +67,7 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 > Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
 
-!(https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=0%3A1)
+![https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=0%3A1](url)
 
 - Desktop Landing
 
