@@ -1,50 +1,43 @@
 # Ethiopian-Jewelry
-# PROJECT 4 README <!-- omit in toc -->
 
-> The Project Planning section **should be completed** for your project pitch with instructors.
->
-> To ensure correct Markdown, copy and paste the raw template code into your project repo README file. Remove ALL template instructions and replace with your project details.
-
-- [Overview](#overview)
-- [MVP](#mvp)
-  - [Goals](#goals)
-  - [Libraries and Dependencies](#libraries-and-dependencies)
-  - [Client (Front End)](#client-front-end)
-    - [Wireframes](#wireframes)
-    - [Component Tree](#component-tree)
-    - [Component Architecture](#component-architecture)
-    - [Time Estimates](#time-estimates)
-  - [Server (Back End)](#server-back-end)
-    - [ERD Model](#erd-model)
-- [Post-MVP](#post-mvp)
-- [Code Showcase](#code-showcase)
-- [Code Issues & Resolutions](#code-issues--resolutions)
-
-<br>
 
 ## Overview
 
-_**Project Title** is lorem ipsum dolor sit amet. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+Ethiopian Jewelry is an app that allows the user to buy Ethiopian coptic cross necklaces.
 
 
 <br>
 
 ## MVP
 
-> The Minimum Viable Product should be a well-planned, easily-communicated product, ensuring that the client's deliverable will be achievable and meet specifications within the time frame estimated.
-
-_The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+- Have a RESTful JSON API
+- Ruby On Rails Server
+- Build a database with at least 3 tables
+- Utilize Rails to define models for interacting with the database.
+- Implement working generic controller actions for Full CRUD for back-end(index, show, create, update, delete) between your non-User tables
+- Build a React App for front-end
+- Have at least 8 separate, rendered components in an organized and understandable React file structure.
+- Use only React for DOM Manipulation.
+- Consume data from my Ruby on Rails API, and render that data in components.
+- Utilize React Router, for client-side routing.
+- Demonstrate full CRUD actions for front-end
+- Be styled with CSS using Flexbox or Grid.
+- Implement 2 media queries for responsive design on 3 screen sizes (including desktop).
+- Deploy the fully functional front-end via Surge or Netlify.
+- Deploy the back-end via Heroku.
 
 <br>
 
 ### Goals
 
-- _Lorem ipsum, dolor sit amet,_
-- _consectetur adipiscing elit._
-- _Phasellus dapibus fermentum risus vitae bibendum._
-- _Integer vel ipsum mollis odio sollicitudin ornare eu vel ex._
-- _etc._
-
+- Have wireframes, component hierarchy, ERD ready for project approval by Monday October 4, 2021
+- Have inital CRUD and authentication done for back-end by end of day Monday October 4, 2021
+- Have full CRUD for front-end done by Tuesday October 5, 2021
+- Have initial css styling done by Wednesday October 6, 2021
+- Have media queries and advanced CSS styling done by Thursday October 7, 2021
+- Have front-end and back-end deployed, and work on initial PMVP features done by Friday October 8, 2021
+- Work on any debugging over the weekend
+- Ready for Presentations on Monday October 11, 2021
 <br>
 
 ### Libraries and Dependencies
@@ -53,12 +46,13 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
-|      React       | _Lorem ipsum dolor sit amet, consectetur._ |
-|   React Router   | _Lorem ipsum dolor sit amet, consectetur._ |
-| React SemanticUI | _Lorem ipsum dolor sit amet, consectetur._ |
-|     Express      | _Lorem ipsum dolor sit amet, consectetur._ |
-|  Express Router  | _Lorem ipsum dolor sit amet, consectetur._ |
-
+|      React       | Build user interface|
+|   React Router   | Create componentsto navigate through the site|
+| Ruby on Rails    |Back End server |
+|     Express      | Process handle requests|
+|  Express Router  |Class that helps create router handlers|
+|    Netlify	     |fully functional front-end deployment|
+|    Heroku        |used to deploy back-end |
 <br>
 
 ### Client (Front End)
@@ -101,25 +95,37 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 #### Component Architecture
 
-> Use this section to define your React components and the data architecture of your app. This should be a reflection of how you expect your directory/file tree to look like. 
 
-``` structure
+``` 
 
 src
-|__ assets/
-      |__ fonts
-      |__ graphics
-      |__ images
-      |__ mockups
+
 |__ components/
       |__ Header.jsx
+|__ containers/
+      |__ MainContainer.jsx
+|__ layouts/
+      |__ Layout.jsx
+|__ screens/
+      |__ Necklaces.jsx
+      |__ NecklaceCreate.jsx
+      |__ NecklaceEdit.jsx
+      |__ Necklace.jsx
+      |__ Login.jsx
+      |__ Register.jsx
 |__ services/
+      |__ auth.js
+      |__ config.js
+      |__ Necklaces.js
+      |__ Rating.js
+|__ App.js
+
+      
 
 ```
 
 #### Time Estimates
 
-> Use this section to estimate the time necessary to build out each of the components you've described above.
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
@@ -127,7 +133,7 @@ src
 | Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
 | TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
 
-> _Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evaluate possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe._
+
 
 <br>
 
@@ -135,7 +141,7 @@ src
 
 #### ERD Model
 
-> Use this section to display an image of a computer generated ERD model. You can use draw.io, Lucidchart or another ERD tool.
+
 
 [ERD Sample](https://app.diagrams.net/)
 <br>
@@ -144,7 +150,7 @@ src
 
 ## Post-MVP
 
-> Use this section to document ideas you've had that would be fun (or necessary) for your Post-MVP. This will be helpful when you return to your project after graduation!
+
 
 ***
 
