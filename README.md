@@ -91,7 +91,7 @@ Ethiopian Jewelry is an app that allows the user to buy Ethiopian coptic cross n
 
 > Use this section to display the structure of how your React components are being rendered. This should show the parent to child relation between you components. In other words, show which components are rendering the other components. Include a link to your component tree
 
-[Component Tree Sample](https://whimsical.com/4vm4zfQrtyHSHayBTyw4hr)
+![Component Tree Sample](https://whimsical.com/4vm4zfQrtyHSHayBTyw4hr)
 
 #### Component Architecture
 
