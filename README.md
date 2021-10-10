@@ -150,7 +150,8 @@ src
 
 ## Post-MVP
 
-
+- Search bar
+- Sort function
 
 ***
 
