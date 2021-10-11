@@ -1,4 +1,4 @@
-# Ethiopian-Jewelry
+# ethiopian-jewelry
 
 
 ## Overview
@@ -30,14 +30,14 @@ Ethiopian Jewelry is an app that allows the user to buy Ethiopian coptic cross n
 
 ### Goals
 
-- Have wireframes, component hierarchy, ERD ready for project approval by Monday October 4, 2021
-- Have inital CRUD and authentication done for back-end by end of day Monday October 4, 2021
-- Have full CRUD for front-end done by Tuesday October 5, 2021
-- Have initial css styling done by Wednesday October 6, 2021
-- Have media queries and advanced CSS styling done by Thursday October 7, 2021
-- Have front-end and back-end deployed, and work on initial PMVP features done by Friday October 8, 2021
-- Work on any debugging over the weekend
-- Ready for Presentations on Monday October 11, 2021
+- Have wireframes, component hierarchy, ERD ready for project approval by Monday October 11, 2021
+- Have inital CRUD and authentication done for back-end by end of day Thursday October 14, 2021
+- Have full CRUD for front-end done by Monday October 17, 20214
+- Have initial css styling done by Wednesday October 19, 2021
+- Have media queries and advanced CSS styling done by Friday October 21, 2021
+- Have front-end and back-end deployed, and work on initial PMVP features done by Monday October 24, 2021
+- Work on any debugging for the following days
+- Ready for Presentations/Admission on Wednesday October 26, 2021
 <br>
 
 ### Libraries and Dependencies
@@ -52,7 +52,7 @@ Ethiopian Jewelry is an app that allows the user to buy Ethiopian coptic cross n
 |     Express      | Process handle requests|
 |  Express Router  |Class that helps create router handlers|
 |    Netlify	     |fully functional front-end deployment|
-|    Heroku        |used to deploy back-end |
+|    Heroku        | To deploy back-end |
 <br>
 
 ### Client (Front End)
