@@ -60,33 +60,15 @@ Ethiopian Jewelry is an app that allows the user to buy Ethiopian coptic cross n
 #### Wireframes
 
 
-![(https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=312%3A2)
+(https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=312%3A2)
 
 
 
-![(https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=314%3A2)
-
-
-![(https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=313%3A12)
-
-
-!(https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=314%3A52)
-
-
-
-!(https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=314%3A81)
-
-
-![(https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=0%3A1)
-
-
-
-!(https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=0%3A1)
 
 #### Component Tree
 
 
-![Component Tree Sample](https://whimsical.com/4vm4zfQrtyHSHayBTyw4hr)
+(https://whimsical.com/4vm4zfQrtyHSHayBTyw4hr)
 
 #### Component Architecture
 
@@ -125,13 +107,13 @@ src
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
 | Create Back End  |    H     |     9 hrs      |     0 hrs     |    0 hrs    |
-| Create database and tables |    H     |     6 hrs      |     0 hrs     |     TBD     |
-| Setup React components |    H     |     6 hrs      |     0 hrs     |     TBD     |
-| Create CRUD Action|    H     |     8 hrs      |     0 hrs     |     TBD     |
-| Adding Screen Component|    H     |     6 hrs      |     0 hrs     |     TBD     |
-| CSS |    L    |     12 hrs      |     0 hrs     |     TBD     |
-| Refactor/Debugging |    H     |     10 hrs      |     0 hrs     |     TBD     |
-| TOTAL               |          |      57 hrs      |    0 hrs     |     TBD     |
+| Create database and tables |    H     |     6 hrs      |     0 hrs     |     0hrs    |
+| Setup React components |    H     |     6 hrs      |     0 hrs     |     0hrs     |
+| Create CRUD Action|    H     |     8 hrs      |     0 hrs     |     0hrs     |
+| Adding Screen Component|    H     |     6 hrs      |     0 hrs     |   0hrs   |
+| CSS |    L    |     12 hrs      |     0 hrs     |    0hrs     |
+| Refactor/Debugging |    H     |     10 hrs      |     0 hrs     |    0hrs    |
+| TOTAL               |          |      57 hrs      |    0 hrs     |     0hrs     |
 
 
 
@@ -151,7 +133,7 @@ src
 ## Post-MVP
 
 - Search bar
-- Sort function
+
 
 ***
 
