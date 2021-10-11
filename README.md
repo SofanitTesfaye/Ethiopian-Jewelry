@@ -42,7 +42,7 @@ Ethiopian Jewelry is an app that allows the user to buy Ethiopian coptic cross n
 
 ### Libraries and Dependencies
 
-> Use this section to list all supporting libraries and dependencies, and their role in the project. Below is an example - this needs to be replaced!
+
 
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
@@ -59,37 +59,32 @@ Ethiopian Jewelry is an app that allows the user to buy Ethiopian coptic cross n
 
 #### Wireframes
 
-> Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
 
-![Home Page](https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=312%3A2)
+![(https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=312%3A2)
 
-- Desktop Landing
 
-![Dummy Link](https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=314%3A2)
 
-- Desktop Hero
+![(https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=314%3A2)
 
-![Dummy Link](https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=313%3A12)
 
-- Resource Index
+![(https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=313%3A12)
 
-![Dummy Link](https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=314%3A52)
 
-- Resource Show
+!(https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=314%3A52)
 
-![Dummy Link](https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=314%3A81)
 
-- Tablet Resource Index
 
-![Dummy Link](https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=0%3A1)
+!(https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=314%3A81)
 
-- Mobile Resource Index
 
-![Dummy Link](https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=0%3A1)
+![(https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=0%3A1)
+
+
+
+!(https://www.figma.com/file/CUAOQ3IBsftRIDGFdq3c6p/Ethiopian-Jewelry-team-library?node-id=0%3A1)
 
 #### Component Tree
 
-> Use this section to display the structure of how your React components are being rendered. This should show the parent to child relation between you components. In other words, show which components are rendering the other components. Include a link to your component tree
 
 ![Component Tree Sample](https://whimsical.com/4vm4zfQrtyHSHayBTyw4hr)
 
@@ -129,9 +124,14 @@ src
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
+| Create Back End  |    H     |     9 hrs      |     0 hrs     |    0 hrs    |
+| Create database and tables |    H     |     6 hrs      |     0 hrs     |     TBD     |
+| Setup React components |    H     |     6 hrs      |     0 hrs     |     TBD     |
+| Create CRUD Action|    H     |     8 hrs      |     0 hrs     |     TBD     |
+| Adding Screen Component|    H     |     6 hrs      |     0 hrs     |     TBD     |
+| CSS |    L    |     12 hrs      |     0 hrs     |     TBD     |
+| Refactor/Debugging |    H     |     10 hrs      |     0 hrs     |     TBD     |
+| TOTAL               |          |      57 hrs      |    0 hrs     |     TBD     |
 
 
 
@@ -157,8 +157,8 @@ src
 
 ## Code Showcase
 
-> Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
+
 
 ## Code Issues & Resolutions
 
-> Use this section to list of all major issues encountered and their resolution.
+
