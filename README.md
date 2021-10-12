@@ -125,7 +125,7 @@ src
 
 
 
-[ERD Sample](https://app.diagrams.net/)
+![ERD Sample](https://i.imgur.com/f7Uz3r8.png)
 <br>
 
 ***
