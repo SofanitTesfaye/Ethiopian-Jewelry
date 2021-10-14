@@ -1,24 +1,27 @@
 class NecklacesController < ApplicationController
   before_action :set_necklace, only: [:show, :update, :destroy]
+  before_action :authorize_request, only: [:create, :update, :destroy]
 
   # GET /necklaces
   def index
     @necklaces = Necklace.all
 
-    render json: @necklaces
+    render json: @necklaces, include: :ratings
   end
 
   # GET /necklaces/1
   def show
-    render json: @necklace
+    @necklaces = Necklace.all
+    render json: @necklace, include: :ratings
   end
 
   # POST /necklaces
   def create
     @necklace = Necklace.new(necklace_params)
+    @necklace.user = @current_user
 
     if @necklace.save
-      render json: @necklace, status: :created, location: @necklace
+      render json: @necklace, status: :created
     else
       render json: @necklace.errors, status: :unprocessable_entity
     end
