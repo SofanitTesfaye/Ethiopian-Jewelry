@@ -18,7 +18,7 @@ class NecklacesController < ApplicationController
   # POST /necklaces
   def create
     @necklace = Necklace.new(necklace_params)
-    @necklace.user = @current_user
+    # @necklace.user = @current_user
 
     if @necklace.save
       render json: @necklace, status: :created

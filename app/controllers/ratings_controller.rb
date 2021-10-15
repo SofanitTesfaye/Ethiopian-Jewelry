@@ -1,16 +1,18 @@
 class RatingsController < ApplicationController
-  before_action :set_rating, only: [:show, :update, :destroy]
-  before_action :authorize_request, only: [ :create, :update, :destroy ]
+  before_action :authorize_request
 
   # GET /ratings
   def index
-    @ratings = Rating.all
+    @necklace = Necklace.find(params[:necklace_id])
+    @ratings = Rating.where(necklace_id: @necklace.id)
 
     render json: @ratings, include: :necklace
   end
 
   # GET /ratings/1
   def show
+    @necklace = Necklace.find(params[:necklace_id])
+    @rating = Rating.where(necklace_id: @necklace.id).find(params[:id])
     render json: @rating, include: :necklace
 
   end
@@ -32,6 +34,8 @@ class RatingsController < ApplicationController
 
   # PUT /ratings/1
   def update
+    @necklace = Necklace.find(params[:necklace_id])
+    @rating = Rating.where(necklace_id: @necklace.id).find(params[:id])
     if @rating.update(rating_params)
       render json: @rating
     else
@@ -41,6 +45,8 @@ class RatingsController < ApplicationController
 
   # DELETE /ratings/1
   def destroy
+    @necklace = Necklace.find(params[:necklace_id])
+    @rating = Rating.where(necklace_id: @necklace.id).find(params[:id])
     @rating.destroy
   end
   
@@ -56,7 +62,8 @@ class RatingsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_rating
-      @rating = Rating.find(params[:id])
+      # @rating = Rating.find(params[:id])
+      @rating = Rating.where(necklace_id: @necklace.id).find(params[:id])
     end
     
     # Only allow a list of trusted parameters through.
